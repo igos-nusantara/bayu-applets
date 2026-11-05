@@ -1,6 +1,7 @@
 [workspace]
 default-members = ["cosmic-applets", "cosmic-panel-button"]
 members = [
+    "bayu-applets-theme",
     "cosmic-app-list",
     "cosmic-app-list/cosmic-app-list-config",
     "cosmic-applets",
