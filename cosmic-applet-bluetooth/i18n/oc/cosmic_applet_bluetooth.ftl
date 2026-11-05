@@ -1,2 +1,0 @@
-connected = Connectat
-cancel = Anullar
