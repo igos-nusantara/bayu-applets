@@ -1,0 +1,10 @@
+[package]
+name = "bayu-applets-theme"
+version = "0.1.0"
+edition = "2024"
+license = "GPL-3.0-only"
+description = "Writes the COSMIC theme the applets read from Bayu's toolkit theme"
+
+[dependencies]
+cosmic-config.workspace = true
+cosmic-theme = { git = "https://github.com/pop-os/libcosmic" }

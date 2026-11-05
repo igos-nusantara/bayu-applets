@@ -17,22 +17,9 @@ fn main() -> cosmic::iced::Result {
     tracing::info!("Starting `{cmd}` with version {VERSION}");
 
     match cmd {
-        "cosmic-app-list" => cosmic_app_list::run(),
         "cosmic-applet-a11y" => cosmic_applet_a11y::run(),
-        "cosmic-applet-audio" => cosmic_applet_audio::run(),
-        "cosmic-applet-battery" => cosmic_applet_battery::run(),
-        "cosmic-applet-bluetooth" => cosmic_applet_bluetooth::run(),
-        "cosmic-applet-minimize" => cosmic_applet_minimize::run(),
-        "cosmic-applet-network" => cosmic_applet_network::run(),
-        "cosmic-applet-notifications" => cosmic_applet_notifications::run(),
-        "cosmic-applet-osk" => cosmic_applet_osk::run(),
-        "cosmic-applet-power" => cosmic_applet_power::run(),
-        "cosmic-applet-status-area" => cosmic_applet_status_area::run(),
-        "cosmic-applet-tiling" => cosmic_applet_tiling::run(),
-        "cosmic-applet-time" => cosmic_applet_time::run(),
         "cosmic-applet-workspaces" => cosmic_applet_workspaces::run(),
         "cosmic-applet-input-sources" => cosmic_applet_input_sources::run(),
-        "cosmic-panel-button" => cosmic_panel_button::run(),
         _ => Ok(()),
     }
 }

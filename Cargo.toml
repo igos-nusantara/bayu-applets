@@ -1,22 +1,9 @@
 [workspace]
-default-members = ["cosmic-applets", "cosmic-panel-button"]
+default-members = ["cosmic-applets", "bayu-applets-theme"]
 members = [
-    "cosmic-app-list",
-    "cosmic-app-list/cosmic-app-list-config",
+    "bayu-applets-theme",
     "cosmic-applets",
-    "cosmic-applet-audio",
-    "cosmic-applet-battery",
-    "cosmic-applet-bluetooth",
-    "cosmic-applet-minimize",
-    "cosmic-applet-network",
-    "cosmic-applet-notifications",
-    "cosmic-applet-osk",
-    "cosmic-applet-power",
-    "cosmic-applet-status-area",
-    "cosmic-applet-tiling",
-    "cosmic-applet-time",
     "cosmic-applet-workspaces",
-    "cosmic-panel-button",
     "cosmic-applet-input-sources",
     "cosmic-applet-a11y",
     "cosmic-applets-config",
